@@ -162,7 +162,7 @@ In shared locks, multiple users are allowed to access the same data item with a 
 Shared locks are applied to a data item when the transaction requests a read operation on the data item. A shared lock will allow multiple transactions to only read the data item concurrently.
 
 As these locks are applied on read operation, they will not compromise on the consistency of the database.
-#### 8.2.2 
+#### 8.2.2 Exclusive Locks
 Exclusive locks on the other hand are applied on the transactions which request a write operation on the data item.
 
 The transaction which is modifying the data item requests an exclusive lock on the data item and hence any other transaction which needs access to the data item has to wait until the lock applied by the previous transaction has been released by it.
