@@ -94,7 +94,7 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE expression;
 ```
-Here Where expression is used to filter out the result based on the conditions. In this, there will be equality operator(==,<>),logical operator(>,>=,<,<=) and logical operators (AND, OR, NOT, BETWEEN,  IN, LIKE, ISNULL) can be used.
+Here Where expression is used to filter out the result based on the conditions. In this, there will be equality operators(==,<>),logical operators(>,>=,<,<=) and logical operators (AND, OR, NOT, BETWEEN,  IN, LIKE, ISNULL) can be used.
 ## 5. Normalization
 Normalization is the process of minimizing redundancy from a relation or set of relations. Redundancy in relation may cause insertion, deletion, and update anomalies. So, it helps to minimize the redundancy in relations. Normal forms are used to eliminate or reduce redundancy in database tables.
 ### 5.1 First Normal Form 
